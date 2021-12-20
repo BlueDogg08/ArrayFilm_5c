@@ -6,4 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".dettagliFilm">
 
+    <ImageView
+        android:id="@+id/Batman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/batman"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Dune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dune"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/SpiderMan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/spiderman"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="109dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Titanic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/titanic"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp"
+        android:visibility="invisible" />
 </androidx.constraintlayout.widget.ConstraintLayout>

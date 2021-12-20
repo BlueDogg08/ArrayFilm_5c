@@ -14,7 +14,7 @@ import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
-    String film[]= {"Dune","Spiderman","Titanic","Batman"};
+    String film[]= {"Dune","SpiderMan","Titanic","Batman"};
     ListView lvFilm;
     Button btnEsci;
 
@@ -39,6 +39,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(idettFilm);
             }
         });
-
     }
 }
